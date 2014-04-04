@@ -1,0 +1,214 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Pathfinder RPG for Players
+VERSION:6.02.1
+ROLLMETHOD:2|EXPRESSION:Standard Fantasy
+PURCHASEPOINTS:Y|TYPE:Standard Fantasy
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm
+POOLPOINTS:15
+POOLPOINTSAVAIL:15
+GAMEMODE:Pathfinder_RPG
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Frankenstein
+TABNAME:Will - Frankenstein
+PLAYERNAME:Will
+HEIGHT:72
+WEIGHT:140
+AGE:25
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:13
+STAT:DEX|SCORE:14
+STAT:CON|SCORE:14
+STAT:INT|SCORE:10
+STAT:WIS|SCORE:10
+STAT:CHA|SCORE:12
+ALIGN:NG
+RACE:Human
+
+# Character Class(es)
+CLASS:Fighter|LEVEL:1|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Fighter=1|HITPOINTS:10|PRESTAT:STR=-3|PRESTAT:CON=1|PRESTAT:CHA=2|PRESTAT:STR=1|SKILLSGAINED:3|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:1000
+EXPERIENCETABLE:Medium
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Appraise|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:5|
+SKILL:Craft (Untrained)|OUTPUTORDER:6|
+SKILL:Diplomacy|OUTPUTORDER:7|
+SKILL:Disguise|OUTPUTORDER:9|
+SKILL:Escape Artist|OUTPUTORDER:10|CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Fly|OUTPUTORDER:11|
+SKILL:Heal|OUTPUTORDER:12|
+SKILL:Intimidate|OUTPUTORDER:13|
+SKILL:Perception|OUTPUTORDER:14|
+SKILL:Perform (Untrained)|OUTPUTORDER:15|
+SKILL:Ride|OUTPUTORDER:16|
+SKILL:Sense Motive|OUTPUTORDER:17|
+SKILL:Stealth|OUTPUTORDER:18|CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Survival|OUTPUTORDER:19|
+SKILL:Swim|OUTPUTORDER:20|
+SKILL:Bluff (Potentially Sexually Attracted)|OUTPUTORDER:4|
+SKILL:Diplomacy (Potentially Sexually Attracted)|OUTPUTORDER:8|
+
+# Character Languages
+LANGUAGE:Common
+
+# Character Feats
+FEATPOOL:-2.0
+
+# Character Abilities
+ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Dexterity|TYPE:AbilityBonus
+USERPOOL:Ability Bonus|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Fighter|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:|TYPE:FavoredClassBonus
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Finesse|TYPE:Combat.CelestialBloodline.ElementalBloodline.ShadowBloodline|DESC:You are trained in using your agility in melee combat, as opposed to brute strength.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Defensive Combat Training|TYPE:Combat.AquaticBloodline.ProteanBloodline|DESC:You excel at defending yourself from all manner of combat maneuvers.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Fighter Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Reflexes|TYPE:Combat.SerpentineBloodline|DESC:You can make additional attacks of opportunity.
+USERPOOL:Fighter Bonus Feat|POOLPOINTS:0.0
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Anatomist ~ Trait|TYPE:Trait.BasicTrait.CombatTrait|DESC:You have studied the workings of anatomy, either as a student at university or as an apprentice mortician or necromancer.
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Charming ~ Trait|TYPE:Trait.BasicTrait.SocialTrait|DESC:Blessed with good looks, you've come to depend on the fact that others find you attractive.
+USERPOOL:Traits|POOLPOINTS:0.0
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Atlatl|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin|WEAPON:Bill|WEAPON:Blowgun|WEAPON:Broadsword (Nine Ring)|WEAPON:Butterfly Sword]
+WEAPONPROF:[WEAPON:Cestus|WEAPON:Chakram|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Double Chicken Saber|WEAPON:Falchion]
+WEAPONPROF:[WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Glaive-Guisarme|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword]
+WEAPONPROF:[WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Hooked Lance|WEAPON:Iron Brush|WEAPON:Javelin|WEAPON:Jutte|WEAPON:Katana|WEAPON:Kerambit]
+WEAPONPROF:[WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucern Hammer|WEAPON:Lungchuan Tamo|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mattock]
+WEAPONPROF:[WEAPON:Mere Club|WEAPON:Monk's Spade|WEAPON:Morningstar|WEAPON:Naginata|WEAPON:Nodachi|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pilum|WEAPON:Poisoned Sand Tube|WEAPON:Quarterstaff]
+WEAPONPROF:[WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rhomphaia|WEAPON:Rock|WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scizore|WEAPON:Scythe|WEAPON:Shang Gou]
+WEAPONPROF:[WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sibat|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)]
+WEAPONPROF:[WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Starknife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword Cane|WEAPON:Tepoztopilli|WEAPON:Terbutje]
+WEAPONPROF:[WEAPON:Tiger Fork|WEAPON:Tonfa|WEAPON:Trident|WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
+
+# Character Equipment
+MONEY:28.910000000000000142108547152020037174224853515625
+EQUIPNAME:Bread (Loaf)|OUTPUTORDER:11|COST:0.02|WT:0.5|QUANTITY:2.0
+EQUIPNAME:Cheese (Hunk)|OUTPUTORDER:13|COST:0.1|WT:0.5|QUANTITY:1.0
+EQUIPNAME:Oil (1 Pint Flask)|OUTPUTORDER:17|COST:0.1|WT:1.0|QUANTITY:1.0
+EQUIPNAME:Meat (Chunk)|OUTPUTORDER:8|COST:0.3|WT:0.5|QUANTITY:2.0
+EQUIPNAME:Holy Water (Flask)|OUTPUTORDER:15|COST:25|WT:1.0|QUANTITY:1.0
+EQUIPNAME:Earplugs|OUTPUTORDER:14|COST:0.03|WT:0.0|QUANTITY:1.0
+EQUIPNAME:Outfit (Hot Weather)|OUTPUTORDER:5|COST:0|WT:4.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Outfit (Hot Weather)|DATA:NAME=Outfit (Hot Weather)$COSTMOD=-8]
+EQUIPNAME:Smelling Salts|OUTPUTORDER:19|COST:25|WT:0.0|QUANTITY:1.0
+EQUIPNAME:Eye Lenses|OUTPUTORDER:1|COST:0|WT:0.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Eye Lenses|DATA:NAME=Eye Lenses]
+EQUIPNAME:Ink (1 oz Vial)|OUTPUTORDER:16|COST:8|WT:0.0|QUANTITY:1.0
+EQUIPNAME:Boots|OUTPUTORDER:7|COST:0|WT:0.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Boots|DATA:NAME=Boots]
+EQUIPNAME:Candle|OUTPUTORDER:12|COST:0.01|WT:0.0|QUANTITY:1.0
+EQUIPNAME:Bedroll|OUTPUTORDER:22|COST:0.1|WT:5.0|QUANTITY:1.0
+EQUIPNAME:Vial|OUTPUTORDER:21|COST:1|WT:0.0|QUANTITY:2.0
+EQUIPNAME:Rapier|OUTPUTORDER:2|COST:20.0|WT:2.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Rapier|DATA:NAME=Rapier$EQMOD=STEEL]
+EQUIPNAME:Torch|OUTPUTORDER:20|COST:0.01|WT:1.0|QUANTITY:1.0
+EQUIPNAME:Barding (Padded)|OUTPUTORDER:6|COST:10.0|WT:10.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Barding (Padded)|DATA:NAME=Barding (Padded)$EQMOD=CLOTH]
+EQUIPNAME:Backpack|OUTPUTORDER:9|COST:2|WT:2.0|QUANTITY:1.0
+EQUIPNAME:Wine (Fine/Bottle)|OUTPUTORDER:23|COST:10|WT:1.5|QUANTITY:1.0
+EQUIPNAME:Cloak|OUTPUTORDER:4|COST:0|WT:0.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Cloak|DATA:NAME=Cloak]
+EQUIPNAME:Gauntlets|OUTPUTORDER:3|COST:0|WT:0.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Gauntlets|DATA:NAME=Gauntlets]
+EQUIPNAME:Blanket|OUTPUTORDER:10|COST:0.2|WT:1.0|QUANTITY:1.0
+EQUIPNAME:Paper (Sheet)|OUTPUTORDER:18|COST:0.4|WT:0.0|QUANTITY:1.0
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.01|VALUE:Rapier|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Eyes|ID:0.1.02|VALUE:Eye Lenses|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Feet|ID:0.1.03|VALUE:Boots|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Shoulders|ID:0.1.04|VALUE:Cloak|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.1.05|VALUE:Outfit (Hot Weather)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Hands|ID:0.1.06|VALUE:Gauntlets|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.08|VALUE:Meat (Chunk)|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.09|VALUE:Backpack|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.10|VALUE:Blanket|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.11|VALUE:Bread (Loaf)|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.12|VALUE:Candle|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.13|VALUE:Cheese (Hunk)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.14|VALUE:Earplugs|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.15|VALUE:Holy Water (Flask)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.16|VALUE:Ink (1 oz Vial)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.17|VALUE:Oil (1 Pint Flask)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.18|VALUE:Paper (Sheet)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.19|VALUE:Smelling Salts|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.21|VALUE:Torch|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.22|VALUE:Vial|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.23|VALUE:Bedroll|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.24|VALUE:Barding (Padded)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.25|VALUE:Wine (Fine/Bottle)|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:None|DEITYDOMAINS:[DOMAIN:Agathion Subdomain|DOMAIN:Air|DOMAIN:Ancestors Subdomain|DOMAIN:Animal|DOMAIN:Arcane Subdomain|DOMAIN:Archon Subdomain (Good)|DOMAIN:Archon Subdomain (Law)|DOMAIN:Artifice|DOMAIN:Ash Subdomain|DOMAIN:Azata Subdomain (Chaos)|DOMAIN:Azata Subdomain (Good)|DOMAIN:Blood Subdomain|DOMAIN:Catastrophe Subdomain|DOMAIN:Caves Subdomain|DOMAIN:Chaos|DOMAIN:Charm|DOMAIN:Cloud Subdomain|DOMAIN:Community|DOMAIN:Construct Subdomain|DOMAIN:Curse Subdomain|DOMAIN:Daemon Subdomain|DOMAIN:Darkness|DOMAIN:Day Subdomain|DOMAIN:Death|DOMAIN:Death (Pharasma)|DOMAIN:Decay Subdomain|DOMAIN:Deception Subdomain|DOMAIN:Defense Subdomain|DOMAIN:Demon Subdomain (Chaos)|DOMAIN:Demon Subdomain (Evil)|DOMAIN:Destruction|DOMAIN:Devil Subdomain (Evil)|DOMAIN:Devil Subdomain (Law)|DOMAIN:Divine Subdomain|DOMAIN:Earth|DOMAIN:Evil|DOMAIN:Exploration Subdomain|DOMAIN:Family Subdomain|DOMAIN:Fate Subdomain|DOMAIN:Feather Subdomain|DOMAIN:Ferocity Subdomain|DOMAIN:Fire|DOMAIN:Freedom Subdomain|DOMAIN:Fur Subdomain|DOMAIN:Glory|DOMAIN:Good|DOMAIN:Growth Subdomain|DOMAIN:Healing|DOMAIN:Heroism Subdomain|DOMAIN:Home Subdomain|DOMAIN:Honor Subdomain|DOMAIN:Ice Subdomain|DOMAIN:Inevitable Subdomain|DOMAIN:Insanity Subdomain|DOMAIN:Knowledge|DOMAIN:Language Subdomain|DOMAIN:Law|DOMAIN:Leadership Subdomain|DOMAIN:Liberation|DOMAIN:Light Subdomain|DOMAIN:Loss Subdomain|DOMAIN:Love Subdomain|DOMAIN:Luck|DOMAIN:Lust Subdomain|DOMAIN:Madness|DOMAIN:Magic|DOMAIN:Martyr Subdomain|DOMAIN:Memory Subdomain|DOMAIN:Metal Subdomain|DOMAIN:Murder Subdomain|DOMAIN:Night Subdomain|DOMAIN:Nightmare Subdomain|DOMAIN:Nobility|DOMAIN:Oceans Subdomain|DOMAIN:Plant|DOMAIN:Protean Subdomain|DOMAIN:Protection|DOMAIN:Purity Subdomain|DOMAIN:Rage Subdomain|DOMAIN:Repose|DOMAIN:Resolve Subdomain|DOMAIN:Restoration Subdomain|DOMAIN:Resurrection Subdomain|DOMAIN:Revolution Subdomain|DOMAIN:Rune|DOMAIN:Seasons Subdomain|DOMAIN:Smoke Subdomain|DOMAIN:Souls (Pharasma) Subdomain|DOMAIN:Souls Subdomain|DOMAIN:Storms Subdomain|DOMAIN:Strength|DOMAIN:Sun|DOMAIN:Tactics Subdomain|DOMAIN:Thievery Subdomain|DOMAIN:Thought Subdomain|DOMAIN:Toil Subdomain|DOMAIN:Trade Subdomain|DOMAIN:Travel|DOMAIN:Trickery|DOMAIN:Undead Subdomain|DOMAIN:War|DOMAIN:Wards Subdomain|DOMAIN:Water|DOMAIN:Weather|DOMAIN:Wind Subdomain]|ALIGNALLOW:|DESC:None|HOLYITEM:None|DEITYFAVWEAP:[WEAPON:ALL]|DEITYALIGN:
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+
